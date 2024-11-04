@@ -1,11 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('Git checkout') {
-           steps{
-            https://github.com/Shekharbabun/RavdyMavenHelloWorld.git
-                }
-        }
+
     tools{
         maven 'local_maven'
     }
